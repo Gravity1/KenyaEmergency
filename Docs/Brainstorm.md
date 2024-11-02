@@ -12,4 +12,6 @@ I want these features, ... just because:
 9. A way for users to simply report (could be useful when they are witnessing something but cannot or will not get involved), separate this (make less prominent) than the call emergency (which is supposed to be the whole point)
 10. Look into having a potential avenue for citizens to give information to the government eg to document and respond to things like local county council stuff like a collapsed bridge etc
 11. Connect with the national missing persons database
-	1. 
+12. Add functionality to add suggested numbers, as well as feedback
+13. Consider county emergency numbers
+14. 

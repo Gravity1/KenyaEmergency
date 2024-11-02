@@ -190,39 +190,39 @@ https://x.com/NPSOfficial_KE/status/1556815863847817217
 ### www.dignited.com
 https://www.dignited.com/102891/emergency-services-contacts-kenya/#google_vignette
 
-| Institution | Emergency Contacts | Areas Available | Email Address |
-|---|---|---|---|
-| Kenya Red Cross or E-Plus Kenya | 0700 395 395 <br> 0738 395 395 | All 47 Counties | dispatcch@eplus.co.ke |
-| Critical Care Ambulance Services Limited | 0716 400 500, 0728 918 000, 0735 844 904 | Pumwani Nairobi |  |
-| St John’s Ambulances | 0721 225 285 | Nairobi |  |
-| St John’s Ambulances | 0723-956649 <br> 0722-664042 | Kisumu | nyanza@stjohnkenya.org |
-| St John’s Ambulances | 0721-392223 <br> 0722-956803 | Mombasa | coast@stjohnkenya.org |
-| St John’s Ambulances | 0718-189671 | Kakamega | western@stjohnkenya.org |
-| St John’s Ambulances | 0721-355773 <br> 0721-486211 | Nakuru | riftvalley@stjohnkenya.org |
-| St John’s Ambulances | 0724-418811 | Nyeri | central@stjohnkenya.org |
-| Intensive Care Air Ambulances | 0722-600600 <br> 0733-600600 <br> 020-6000600 <br> 020-604945 <br> 020- 602767 | Nairobi | icaa@icaanairobi.com |
-| AAR Health Emergency | 0725 225 225 <br> 0734 225 225 <br> 0709 701 000 <br> 020-2717374/5/6 | Nairobi | radio.room@aar-healthcare.com |
-| AAR Health Emergency | 0734 444470 | Kisumu | radio.room@aar-healthcare.com |
-| AAR Health Emergency | 0729 933559 | Mombasa | radio.room@aar-healthcare.com |
-| Avenue Rescue Services | 020-3743858 <br> 0711 060 000 <br> 0732 175 000 | Mombasa, Nakuru, Nairobi, Ongata Rongai, Eldoret and Kisumu. | dispatch@avenuehealthcare.com |
-| OCOA Ambulance Service | 0758 692 000 | Nairobi County | admin@ocoambulance.co.ke |
-| Josmori Ambulance | 0700 767 664 | Mombasa County |  |
-| Ivory Health Solutions | 0726 998 880 <br> 0786 998 880 | Nairobi county <br> Kiambu County |  |
-| Radiant Ambulances | 0717 666 695 <br> 0717 666 626 <br> 0725 532 000 | Nairobi County | info@radianthospitals.org |
-| Mama Lucy Kibaki Hospital | 020 8022 676 | Nairobi County |  |
-| AMREF Flying Doctors | 0722-207350 <br> 020-6000552 <br> 020-6003988 <br> 020-6002492 <br> 020-6000833 <br> 020-6000868 | Country Wide | emergency@flydoc.org |
-| Kenyatta National Hospital | 0738 606 409 <br> 020 2726300 <br> 020 272 5272 <br> 2726550 <br> 2726450/1-5 | Nairobi County | knhadmin@knh.or.ke |
-| Moi Teaching and Referral Hospital (MTRH) | 0701 393 979 | Uasin Gishu County |  |
-| Nyeri County Health Services Ambulances | 0717 001 649 | Nyeri County |  |
-| Red Cross | 0722 774 693 <br> 0720 596 661 | Nyeri County |  |
-| Consolata Mathari Mission Hospital | 0729 098 324 <br> 0203536939 | Nyeri County |  |
-| Mary Immaculate Hospital | 0723 576 106 | Nyeri County |  |
-| Outspan Hospital | 0722 696 901 <br> 0712 030 742 | Nyeri County |  |
-| PCEA TumuTumu Hospital | 0720 948 474 | Nyeri County |  |
-| Mewa Ambulance | 0716292 798 | Mombasa County |  |
-| Pandya Mission Hospital | 0722 206 424 <br> 041-229252 <br> 041-221783 | Mombasa County |  |
-| Gertrude Children’s Hospital | 020 720 6000 <br> 0730 645 000 <br> 0709 529 000 | Nairobi County <br> Kiambu County |  |
-| Bliss Medical Centre | 0780 328 381 <br> 0730 704 000 | Country Wide |  |
+| Institution                               | Emergency Contacts                                                                               | Areas Available                                              | Email Address                 |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------- |
+| Kenya Red Cross or E-Plus Kenya           | 0700 395 395 <br> 0738 395 395                                                                   | All 47 Counties                                              | dispatcch@eplus.co.ke         |
+| Critical Care Ambulance Services Limited  | 0716 400 500, 0728 918 000, 0735 844 904                                                         | Pumwani Nairobi                                              |                               |
+| St John’s Ambulances                      | 0721 225 285                                                                                     | Nairobi                                                      |                               |
+| St John’s Ambulances                      | 0723-956649 <br> 0722-664042                                                                     | Kisumu                                                       | nyanza@stjohnkenya.org        |
+| St John’s Ambulances                      | 0721-392223 <br> 0722-956803                                                                     | Mombasa                                                      | coast@stjohnkenya.org         |
+| St John’s Ambulances                      | 0718-189671                                                                                      | Kakamega                                                     | western@stjohnkenya.org       |
+| St John’s Ambulances                      | 0721-355773 <br> 0721-486211                                                                     | Nakuru                                                       | riftvalley@stjohnkenya.org    |
+| St John’s Ambulances                      | 0724-418811                                                                                      | Nyeri                                                        | central@stjohnkenya.org       |
+| Intensive Care Air Ambulances             | 0722-600600 <br> 0733-600600 <br> 020-6000600 <br> 020-604945 <br> 020- 602767                   | Nairobi                                                      | icaa@icaanairobi.com          |
+| AAR Health Emergency                      | 0725 225 225 <br> 0734 225 225 <br> 0709 701 000 <br> 020-2717374/5/6                            | Nairobi                                                      | radio.room@aar-healthcare.com |
+| AAR Health Emergency                      | 0734 444470                                                                                      | Kisumu                                                       | radio.room@aar-healthcare.com |
+| AAR Health Emergency                      | 0729 933559                                                                                      | Mombasa                                                      | radio.room@aar-healthcare.com |
+| Avenue Rescue Services                    | 020-3743858 <br> 0711 060 000 <br> 0732 175 000                                                  | Mombasa, Nakuru, Nairobi, Ongata Rongai, Eldoret and Kisumu. | dispatch@avenuehealthcare.com |
+| OCOA Ambulance Service                    | 0758 692 000                                                                                     | Nairobi County                                               | admin@ocoambulance.co.ke      |
+| Josmori Ambulance                         | 0700 767 664                                                                                     | Mombasa County                                               |                               |
+| Ivory Health Solutions                    | 0726 998 880 <br> 0786 998 880                                                                   | Nairobi county <br> Kiambu County                            |                               |
+| Radiant Ambulances                        | 0717 666 695 <br> 0717 666 626 <br> 0725 532 000                                                 | Nairobi County                                               | info@radianthospitals.org     |
+| Mama Lucy Kibaki Hospital                 | 020 8022 676                                                                                     | Nairobi County                                               |                               |
+| AMREF Flying Doctors                      | 0722-207350 <br> 020-6000552 <br> 020-6003988 <br> 020-6002492 <br> 020-6000833 <br> 020-6000868 | Country Wide                                                 | emergency@flydoc.org          |
+| Kenyatta National Hospital                | 0738 606 409 <br> 020 2726300 <br> 020 272 5272 <br> 2726550 <br> 2726450/1-5                    | Nairobi County                                               | knhadmin@knh.or.ke            |
+| Moi Teaching and Referral Hospital (MTRH) | 0701 393 979                                                                                     | Uasin Gishu County                                           |                               |
+| Nyeri County Health Services Ambulances   | 0717 001 649                                                                                     | Nyeri County                                                 |                               |
+| Red Cross                                 | 0722 774 693 <br> 0720 596 661                                                                   | Nyeri County                                                 |                               |
+| Consolata Mathari Mission Hospital        | 0729 098 324 <br> 0203536939                                                                     | Nyeri County                                                 |                               |
+| Mary Immaculate Hospital                  | 0723 576 106                                                                                     | Nyeri County                                                 |                               |
+| Outspan Hospital                          | 0722 696 901 <br> 0712 030 742                                                                   | Nyeri County                                                 |                               |
+| PCEA TumuTumu Hospital                    | 0720 948 474                                                                                     | Nyeri County                                                 |                               |
+| Mewa Ambulance                            | 0716292 798                                                                                      | Mombasa County                                               |                               |
+| Pandya Mission Hospital                   | 0722 206 424 <br> 041-229252 <br> 041-221783                                                     | Mombasa County                                               |                               |
+| Gertrude Children’s Hospital              | 020 720 6000 <br> 0730 645 000 <br> 0709 529 000                                                 | Nairobi County <br> Kiambu County                            |                               |
+| Bliss Medical Centre                      | 0780 328 381 <br> 0730 704 000                                                                   | Country Wide                                                 |                               |
 
 | Hospital                                              | Contacts                                                                               |
 | ----------------------------------------------------- | -------------------------------------------------------------------------------------- |
@@ -257,28 +257,28 @@ https://www.nyongesasande.com/list-of-emergency-contacts-in-kenya/
 
 ### Ambulance Services
 
-| Service | Contacts |
-|---|---|
-| Ambulance (General) | 999 |
-| AMREF Flying Doctors Ambulance | 020-3315454/5 |
-| AAR Emergency Ambulance | 020-2717374 |
-| Kenya Red Cross Society Ambulance | 020-3950000 |
-| Avenue Rescue Services | 020-3743858 |
-| St. John Ambulance | 020-2210000 |
-| Emergency Plus Medical | 020-700395395 / 020111990 |
+| Service                           | Contacts                  |
+| --------------------------------- | ------------------------- |
+| Ambulance (General)               | 999                       |
+| AMREF Flying Doctors Ambulance    | 020-3315454/5             |
+| AAR Emergency Ambulance           | 020-2717374               |
+| Kenya Red Cross Society Ambulance | 020-3950000               |
+| Avenue Rescue Services            | 020-3743858               |
+| St. John Ambulance                | 020-2210000               |
+| Emergency Plus Medical            | 020-700395395 / 020111990 |
 
 ### Fire Brigade
 
-| Service | Contacts |
-|---|---|
-| Fire Brigade (General) | 999 |
-| Nairobi Fire Brigade | 0202222181 / 0202222182 / 0202344599 |
-| Emergency Hotline | 0206982999 |
+| Service                | Contacts                             |
+| ---------------------- | ------------------------------------ |
+| Fire Brigade (General) | 999                                  |
+| Nairobi Fire Brigade   | 0202222181 / 0202222182 / 0202344599 |
+| Emergency Hotline      | 0206982999                           |
 
 ### Police
 
-| Service | Contacts |
-|---|---|
+| Service                   | Contacts                          |
+| ------------------------- | --------------------------------- |
 | Kenya Police Headquarters | 2240000 / 0726-035455 / 020341411 |
 
 ### Hospitals
