@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Kenya Emergency Contacts</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <script type="module">
+      import "./js/contactsData.js";
+    </script>
+  </head>
+  <body>
+    <h1>Kenya Emergency Contacts</h1>
+
+    <div class="buttons">
+      <button onclick="showContacts('medical')">Medical</button>
+      <button onclick="showContacts('fire')">Fire</button>
+      <button onclick="showContacts('police')">Police</button>
+      <button onclick="showContacts('child')">Child & Family</button>
+      <button onclick="showContacts('utilities')">Utilities</button>
+      <button onclick="showContacts('roadside')">Roadside</button>
+      <button onclick="showContacts('natural')">Natural Disasters</button>
+      <button onclick="showContacts('other')">Other</button>
+    </div>
+
+    <div id="contacts"></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
