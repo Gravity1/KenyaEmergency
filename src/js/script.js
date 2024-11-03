@@ -1,3 +1,39 @@
+// TODO :1 : website can only work in Kenya??? skip if not sure
+
+// TODO :2: get location via browser
+//        - get permissions (if already allowed continue || add button )
+//        - obtain location
+//        - sanitise coordinates
+//            - S turns to - and E is removed
+//            - Return in order latitude, longitudew
+//        - Plug new coordinates (scheduling order might be tricky but just implement for now)
+
+var map = L.map("map").setView([-1.2921, 36.8219], 11); // Replace with your desired coordinates and zoom level
+
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+}).addTo(map);
+
+//TODO:2 :function permittor(){
+//check location;
+//if (!locationGranted) {
+//show button with alert animation();add OnPress()
+//locator();
+//}else{
+//}
+//  }
+//
+//
+//TODO: 2:function locator() {
+//wait for buttonpress; Onpress on button
+//google this;
+//if (!location) {
+//}else()
+//  }
+//
+//
+//
 function showContacts(category) {
   const contactsDiv = document.getElementById("contacts");
   // Retrieve contacts from the imported data or show a default message
