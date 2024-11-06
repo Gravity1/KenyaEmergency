@@ -4,6 +4,9 @@
     <title>Kenya Emergency Contacts</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/tomickigrzegorz/autocomplete@2.0.2/dist/css/autocomplete.min.css"/>
     <script type="module">
       //     import "./js/contactsData.js";
     </script>
@@ -81,6 +84,7 @@
         margin-bottom: 5px;
       }
     </style>
+    <script src="https://cdn.jsdelivr.net/gh/tomickigrzegorz/autocomplete@2.0.2/dist/js/autocomplete.min.js"></script>
   </head>
   <body>
     <h1>Kenya Emergency Contacts</h1>
@@ -101,8 +105,13 @@
     <div class="container">
       <div>
         <div class="service-label">Emergency Address</div>
-        <div class="input-container">
-          <input type="text" placeholder="TYPE AND SELECT" />
+        <div class="input-container auto-search-wrapper">
+          <input 
+            type="text"
+            autocomplete="off"
+            id="search"
+            class="full-width"
+            placeholder="TYPE AND SELECT" />
           <div class="locate-icon">⌖</div>
         </div>
       </div>
