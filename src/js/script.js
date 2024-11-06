@@ -25,14 +25,18 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 //  }
 //
 //
-//TODO: 2:function locator() {
-//wait for buttonpress; Onpress on button
-//google this;
-//if (!location) {
-//}else()
-//  }
+//TODO: 2:
+function locator() {
+  //get lccator input value
+  let location = document.getElementById("locationInput").value;
+  alert(location);
+  //if (!location) {
+  //}else()
+}
 //
+//TODO: 3:function sanitizer(params) {
 //
+//}
 //
 function showContacts(category) {
   const contactsDiv = document.getElementById("contacts");

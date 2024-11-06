@@ -7,6 +7,80 @@
     <script type="module">
       //     import "./js/contactsData.js";
     </script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color:grey; /* Light grey background for contrast */
+        margin: 0;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+      }
+
+      .input-container {
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        width: 250px;
+      }
+
+      .input-container input {
+        border: none;
+        background: transparent;
+        outline: none;
+        color: #fff;
+        font-size: 16px;
+        width: 100%;
+      }
+
+      .input-container .locate-icon {
+        cursor: pointer;
+        margin-left: 8px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+      }
+
+      .order-btn {
+        padding: 10px 20px;
+        background-color: white;
+        color: black;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .order-btn:hover {
+        background-color: #f5f5f5;
+      }
+
+      /* Service Address label styling */
+      .service-label {
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: 5px;
+      }
+    </style>
   </head>
   <body>
     <h1>Kenya Emergency Contacts</h1>
@@ -23,6 +97,18 @@
     </div>
 
     <div id="contacts"></div>
+
+    <div class="container">
+      <div>
+        <div class="service-label">Emergency Address</div>
+        <div class="input-container">
+          <input type="text" placeholder="TYPE AND SELECT" />
+          <div class="locate-icon">⌖</div>
+        </div>
+      </div>
+      <button class="order-btn">Call now</button>
+    </div>
+
     <div id="map" style="height: 700px"></div>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="./js/script.js"></script>
