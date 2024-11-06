@@ -7,3 +7,5 @@ Everything is available on github.com/Gravity1/KenyaEmergency
 				iii. The space is currently in the hands of private providers with even the government working with them.
 
 2. Develop initial commit with basic functionality.
+3. Added search location functionality. Powered by Autocomplete : https://github.com/tomickigrzegorz/Leaflet.Autocomplete : 
+ 4. 
