@@ -1,5 +1,10 @@
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f0f2f5, #d3d7dc);
+  margin: 0;
 }
 h1 {
   text-align: center;
@@ -28,4 +33,100 @@ button {
   padding: 0;
   display: inline-block; /* To keep the list centered */
   text-align: left; /* Align list items to the left */
+}
+/* Add this in your CSS */
+.locate-icon {
+  position: relative;
+  cursor: pointer;
+  margin-left: 8px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+/* Tooltip styling */
+.locate-icon:hover::after {
+  content: "Locate me";
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 280px;
+}
+
+.order-btn {
+  padding: 10px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.order-btn:hover {
+  background-color: #0056b3;
+}
+
+.buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+#contacts {
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.contact:last-child {
+  border-bottom: none;
 }

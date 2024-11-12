@@ -1,0 +1,190 @@
+{
+  "emergencyContacts": [
+    {
+      "category": "Medical",
+      "contacts": [
+        {
+          "name": "999",
+          "number": "999",
+          "areaServed": "All Counties"
+        },
+        {
+          "name": "112",
+          "number": "112",
+          "areaServed": "All Counties"
+        },
+        {
+          "name": "911",
+          "number": "911",
+          "areaServed": "All Counties"
+        },
+        {
+          "name": "AMREF Flying Doctors",
+          "number": "0722-207350",
+          "areaServed": "Countrywide"
+        },
+        {
+          "name": "AAR Health Emergency",
+          "number": "0725 225 225",
+          "areaServed": "Nairobi"
+        },
+        {
+          "name": "Avenue Rescue Services",
+          "number": "020-3743858",
+          "areaServed": "Mombasa, Nakuru, Nairobi, Ongata Rongai, Eldoret and Kisumu"
+        },
+        {
+          "name": "St John’s Ambulances",
+          "number": "0721 225 285",
+          "areaServed": "Nairobi"
+        }
+      ]
+    },
+    {
+      "category": "Fire",
+      "contacts": [
+        {
+          "name": "999",
+          "number": "999",
+          "areaServed": "All Counties"
+        },
+        {
+          "name": "112",
+          "number": "112",
+          "areaServed": "All Counties"
+        },
+        {
+          "name": "911",
+          "number": "911",
+          "areaServed": "All Counties"
+        },
+        {
+          "name": "Nairobi Fire Brigade",
+          "number": "0202222181",
+          "areaServed": "Nairobi"
+        }
+      ]
+    },
+    {
+      "category": "Police",
+      "contacts": [
+        {
+          "name": "999",
+          "number": "999",
+          "areaServed": "All Counties"
+        },
+        {
+          "name": "112",
+          "number": "112",
+          "areaServed": "All Counties"
+        },
+        {
+          "name": "911",
+          "number": "911",
+          "areaServed": "All Counties"
+        },
+        {
+          "name": "Kenya Police Headquarters",
+          "number": "2240000",
+          "areaServed": "Nairobi"
+        }
+      ]
+    },
+    {
+      "category": "Child & Family Services",
+      "contacts": [
+        {
+          "name": "Child helpline",
+          "number": "116",
+          "notes": "24-hour toll-free"
+        },
+        {
+          "name": "Missing child reports",
+          "number": "0800 223 344"
+        },
+        {
+          "name": "Gender-Based Violence hotlines",
+          "number": "1195",
+          "notes": "toll-free"
+        },
+        {
+          "name": "Child abuse",
+          "number": "0722 116 116",
+          "notes": "between 7 am-6 pm"
+        }
+      ]
+    },
+    {
+      "category": "Utilities & Essential Services",
+      "contacts": [
+        {
+          "name": "Power outages",
+          "number": "97771",
+          "notes": "Kenya Power"
+        }
+      ]
+    },
+    {
+      "category": "Roadside Assistance",
+      "contacts": [
+        {
+          "name": "Automobile Association",
+          "number": "0722 513 770"
+        },
+        {
+          "name": "Towing services",
+          "number": "0722 513 770"
+        }
+      ]
+    },
+    {
+      "category": "Natural Disasters",
+      "contacts": [
+        {
+          "name": "Kenya Red Cross",
+          "number": "0700 395 395"
+        },
+        {
+          "name": "National Disaster Operations Centre (NDOC)",
+          "number": "+254-020-2212386"
+        }
+      ]
+    },
+    {
+      "category": "Other",
+      "contacts": [
+        {
+          "name": "Mental health hotlines",
+          "number": "1199"
+        },
+        {
+          "name": "Wildlife emergencies",
+          "number": "0800 597 000"
+        },
+        {
+          "name": "Terrorist attacks",
+          "number": "999"
+        },
+        {
+          "name": "Tourist assistance",
+          "number": "0704 868 000"
+        }
+      ]
+    }
+  ],
+  "whenToCall": [
+    "Medical emergencies",
+    "Fires",
+    "Life-threatening situations",
+    "Crimes in progress",
+    "Vehicle collisions",
+    "When you or someone you care for feels at risk"
+  ],
+  "specificEmergencies": [
+    "Cattle rustling",
+    "Ferry/boat/sea-going vessel capsize",
+    "Road accident involving oil/lpg/fuel tankers, lpg cannisters etc",
+    "School fire"
+  ],
+  "nonEmergencySituations": ["Police misconduct", "Missing persons"]
+}

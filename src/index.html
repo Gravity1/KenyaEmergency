@@ -6,116 +6,138 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/tomickigrzegorz/autocomplete@2.0.2/dist/css/autocomplete.min.css"/>
+      href="https://cdn.jsdelivr.net/gh/tomickigrzegorz/autocomplete@2.0.2/dist/css/autocomplete.min.css"
+    />
     <script type="module">
       //     import "./js/contactsData.js";
     </script>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color:grey; /* Light grey background for contrast */
-        margin: 0;
-      }
-
-      .container {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        justify-content: center;
-      }
-
-      .input-container {
-        display: flex;
-        align-items: center;
-        padding: 10px 15px;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.2);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        width: 250px;
-      }
-
-      .input-container input {
-        border: none;
-        background: transparent;
-        outline: none;
-        color: #fff;
-        font-size: 16px;
-        width: 100%;
-      }
-
-      .input-container .locate-icon {
-        cursor: pointer;
-        margin-left: 8px;
-        color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 24px;
-        height: 24px;
-        border-radius: 50%;
-        border: 1px solid #fff;
-      }
-
-      .order-btn {
-        padding: 10px 20px;
-        background-color: white;
-        color: black;
-        border: none;
-        border-radius: 8px;
-        font-size: 16px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: background-color 0.3s;
-      }
-
-      .order-btn:hover {
-        background-color: #f5f5f5;
-      }
-
-      /* Service Address label styling */
-      .service-label {
-        font-size: 14px;
-        font-weight: bold;
-        color: #fff;
-        margin-bottom: 5px;
-      }
-    </style>
+    <style></style>
     <script src="https://cdn.jsdelivr.net/gh/tomickigrzegorz/autocomplete@2.0.2/dist/js/autocomplete.min.js"></script>
   </head>
   <body>
     <h1>Kenya Emergency Contacts</h1>
 
     <div class="buttons">
-      <button onclick="showContacts('medical')">Medical</button>
-      <button onclick="showContacts('fire')">Fire</button>
-      <button onclick="showContacts('police')">Police</button>
-      <button onclick="showContacts('child')">Child & Family</button>
-      <button onclick="showContacts('utilities')">Utilities</button>
-      <button onclick="showContacts('roadside')">Roadside</button>
-      <button onclick="showContacts('natural')">Natural Disasters</button>
-      <button onclick="showContacts('other')">Other</button>
+      <button
+        onclick="showContacts('Medical')"
+        aria-label="Show Medical Contacts"
+      >
+        Medical
+      </button>
+      <button onclick="showContacts('Fire')" aria-label="Show Fire Contacts">
+        Fire
+      </button>
+      <button
+        onclick="showContacts('Police')"
+        aria-label="Show Police Contacts"
+      >
+        Police
+      </button>
+      <button
+        onclick="showContacts('Child & Family Services')"
+        aria-label="Show Child & Family Services Contacts"
+      >
+        Child & Family
+      </button>
+      <button
+        onclick="showContacts('Utilities & Essential Services')"
+        aria-label="Show Utilities & Essential Services Contacts"
+      >
+        Utilities
+      </button>
+      <button
+        onclick="showContacts('Roadside Assistance')"
+        aria-label="Show Roadside Assistance Contacts"
+      >
+        Roadside
+      </button>
+      <button
+        onclick="showContacts('Natural Disasters')"
+        aria-label="Show Natural Disasters Contacts"
+      >
+        Natural Disasters
+      </button>
+      <button onclick="showContacts('Other')" aria-label="Show Other Contacts">
+        Other
+      </button>
     </div>
 
+    <!-- Dynamic contacts display -->
     <div id="contacts"></div>
-
     <div class="container">
       <div>
         <div class="service-label">Emergency Address</div>
         <div class="input-container auto-search-wrapper">
-          <input 
+          <input
             type="text"
             autocomplete="off"
             id="search"
             class="full-width"
-            placeholder="TYPE AND SELECT" />
+            placeholder="TYPE AND SELECT"
+          />
           <div class="locate-icon">⌖</div>
         </div>
       </div>
       <button class="order-btn">Call now</button>
+    </div>
+    <!-- Feedback Button -->
+    <button
+      id="feedback-btn"
+      class="order-btn"
+      style="background-color: #28a745; margin-top: 20px"
+      aria-label="Give Feedback"
+    >
+      Feedback
+    </button>
+
+    <!-- Feedback Modal Form -->
+    <div
+      id="feedback-modal"
+      style="
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        align-items: center;
+        justify-content: center;
+      "
+    >
+      <div
+        style="
+          background: #fff;
+          padding: 20px;
+          border-radius: 8px;
+          max-width: 400px;
+          width: 90%;
+        "
+      >
+        <h2>Suggest Missing Contacts</h2>
+        <label for="feedback-text">Contact Information:</label>
+        <textarea
+          id="feedback-text"
+          rows="4"
+          style="width: 100%; margin-top: 8px"
+        ></textarea>
+        <div style="text-align: right; margin-top: 10px">
+          <button
+            onclick="submitFeedback()"
+            class="order-btn"
+            style="background-color: #007bff"
+          >
+            Submit
+          </button>
+          <button
+            onclick="closeModal()"
+            class="order-btn"
+            style="background-color: #dc3545"
+          >
+            Close
+          </button>
+        </div>
+      </div>
     </div>
 
     <div id="map" style="height: 700px"></div>
