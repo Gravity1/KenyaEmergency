@@ -39,14 +39,16 @@ button {
   position: relative;
   cursor: pointer;
   margin-left: 8px;
-  color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  border: 1px solid #fff;
+  width: 10vw;
+  height: 10vh;
+  /*border-radius: 50%;*/
+  /*border: 2px solid #fff;*/
+  font-size: xxx-large;
+  font-weight: bold;
 }
 
 /* Tooltip styling */
@@ -129,4 +131,8 @@ button {
 
 .contact:last-child {
   border-bottom: none;
+}
+#locatorIcon {
+  height: 60%;
+  width: 45%;
 }

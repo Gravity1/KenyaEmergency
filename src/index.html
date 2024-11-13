@@ -67,7 +67,7 @@
     <div class="container">
       <div>
         <div class="service-label">Emergency Address</div>
-        <div class="input-container auto-search-wrapper">
+        <div class="input-container auto-search-wrapper" style="display: flex">
           <input
             type="text"
             autocomplete="off"
@@ -75,7 +75,20 @@
             class="full-width"
             placeholder="TYPE AND SELECT"
           />
-          <div class="locate-icon">⌖</div>
+          <div
+            class="locate-icon"
+            onclick="getUserLocation()"
+            aria-label="Locate me"
+          >
+            <img
+              src="./assets/map.png"
+              alt="click here to use autolocate this device"
+              id="locatorIcon"
+            />
+            <!--<a href="https://www.flaticon.com/free-icons/ui" title="ui icons"
+              >Ui icons created by Yudhi Restu - Flaticon</a
+            >-->
+          </div>
         </div>
       </div>
       <button class="order-btn">Call now</button>

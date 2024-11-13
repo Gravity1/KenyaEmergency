@@ -1,14 +1,8 @@
 // TODO :1 : website can only work in Kenya??? skip if not sure
-
-// TODO :2: get location via browser
-//        - get permissions (if already allowed continue || add button )
-//        - obtain location
-//        - sanitise coordinates
-//            - S turns to - and E is removed
-//            - Return in order latitude, longitudew
-//        - Plug new coordinates (scheduling order might be tricky but just implement for now)
-//
 // minimal configure
+
+let userMarker;
+
 new Autocomplete("search", {
   // default selects the first item in
   // the list of results
@@ -135,29 +129,35 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
 
-//TODO:2 :function permittor(){
-//check location;
-//if (!locationGranted) {
-//show button with alert animation();add OnPress()
-//locator();
-//}else{
-//}
-//  }
-//
-//
-//TODO: 2:
-function locator() {
-  //get lccator input value
-  let location = document.getElementById("locationInput").value;
-  alert(location);
-  //if (!location) {
-  //}else()
+function getUserLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords;
+
+        map.setView([latitude, longitude], 15);
+
+        if (userMarker) {
+          userMarker.setLatLg([latitude, longitude]);
+        } else {
+          userMarker = L.marker([latitude, longitude])
+            .addTo(map)
+            .bindPopup("You are here")
+            .openPopup();
+        }
+      },
+      (error) => {
+        alert(
+          "Unable to retrieve your location. Please allow location access.",
+        );
+        console.error("Geolocation error:", error);
+      },
+    );
+  } else {
+    alert("Failed to geolocate");
+  }
 }
-//
-//TODO: 3:function sanitizer(params) {
-//
-//}
-//
+
 let emergencyData = {};
 async function loadEmergencyData() {
   try {
